@@ -1,7 +1,7 @@
 trigger:
   branches:
     include:
-      - testbr2
+      - testbr1
   paths:
     include:
       - pipetest.yaml
