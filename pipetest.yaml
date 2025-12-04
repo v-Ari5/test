@@ -11,7 +11,7 @@ variables:
   vm: "windows-latest"
 
 pool:
-  vmImage: $(vm)
+  vmImage: ${{ variables.vm }}
 
 steps:
 - script: echo Hello, world!
