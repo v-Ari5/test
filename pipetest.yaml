@@ -11,7 +11,7 @@ variables:
   vm: "windows-latest"
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: $(vm)
 
 steps:
 - script: echo Hello, world!
