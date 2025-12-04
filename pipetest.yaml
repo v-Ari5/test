@@ -7,8 +7,11 @@ trigger:
       - pipetest.yaml
 pr: none
 
+variables:
+  vm: "windows-latest"
+
 pool:
-  vmImage: windows-latest
+  vmImage: 'windows-latest'
 
 steps:
 - script: echo Hello, world!
